@@ -10,9 +10,9 @@ licenses +=("MIT", url("http://opensource.org/licenses/MIT"))
 
 javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.11.12"
 
-crossScalaVersions := Seq("2.10.6", "2.11.8")
+crossScalaVersions := Seq("2.11.12", "2.12.12")
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.1" % "test"
@@ -25,7 +25,7 @@ autoAPIMappings := true
 testOptions in Test += Tests.Argument("-oS")
 
 // For ghpages-push-site
-site.settings
-ghpages.settings
-git.remoteRepo := "git@github.com:swoop-inc/scala-sugar.git"
-site.includeScaladoc()
+/*site.settings*/
+/*ghpages.settings*/
+/*git.remoteRepo := "git@github.com:swoop-inc/scala-sugar.git"*/
+/*site.includeScaladoc()*/
